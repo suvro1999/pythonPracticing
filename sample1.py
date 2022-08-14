@@ -68,3 +68,5 @@ else:
 #Sort list is used for store multiple value
 thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 print(thislist)
+
+
