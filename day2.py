@@ -46,3 +46,14 @@ for x in fruits:
   if x == "banana": #you can play with conditional statements here...
     continue
   print(x)
+
+#Now the function starts
+
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+
+#There takeiing a function and passing a parameter and useing those parameters returned various string.
