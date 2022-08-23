@@ -18,3 +18,31 @@ elif a == b:
 else:
   print("a is greater than b")
 
+#While loop 
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+#the output will be 1 to 6 
+
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+# another while loop example/
+
+#for loop iteration
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+#Another loop iteration example
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana": #you can play with conditional statements here...
+    continue
+  print(x)
